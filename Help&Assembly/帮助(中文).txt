@@ -1,0 +1,23 @@
+1.字体:
+	该模组文件夹下的def.lua和youyuan.lua为两种字符的字体,前者为像素风格,后者为圆角风格.
+	def.lua为默认使用的字体,youyuan.lua需要指定字体名称才可使用.
+	使用时在控制台输入指令"write ABC"和"write ABC youyuan"即可分别以两种字体写出ABC三个字母.
+2.语言:
+	該模組包含了正體中文的翻譯，但由於遊戲機制，不能直接載入，需進行以下兩步操作：
+	(1)將該模組\lang\文件夾內的"ja_tc"文件夾名稱改為"ja"，即去掉ja後面的"_tc"；
+	(2)將該模組\lang\文件夾內的"lang_names_tc.lua"文件名稱改為"lang_names.lua"即去掉"lang_names"後面的"_tc"。
+	完成以上兩步操作後即可在遊戲選項菜單中調出"正體中文"語言，選擇該語言並重新啟動遊戲即可使用。
+3.组件:
+	该模组包含三个附加组件,位于在该文件所在的文件夹下,需要时可自行取用.
+	(1)ReplaceableRegions内文件为领地文件,与模组默认的领地文件不同,该文件没有设置全局参数.
+		(a)1.regions-Picsay.lua为体验模式领地,使用该领地可以迅速完成游戏流程.
+		(b)2.regions-Easy.lua为简单模式领地,使用该领地文件时,地图难度较小.
+		(c)3.regions-Normal.lua为标准模式领地,为模组中的默认领地设置.
+		(d)4.regions-Hard.lua为困难模式领地,使用该领地文件时,地图难度较大.
+		(e)5.regions-Compatible.lua为兼容性领地,使用该领地文件时,不会影响其他模组领地文件的加载.
+	   使用方法:将该文件更名为regions.lua并替换拓展模组文件夹下的同名文件(即regions.lua).
+	(2)CustomFonts内文件为字体文件,及其相关文件.
+	   我设计了两组与原版不同的字体以及使用这两组字体时所需的自定义形状和方块.
+	   将字体及其相关文件单独提取,供有需要的人至今使用.
+帮助文档可查阅 <http://steamcommunity.com/workshop/filedetails/discussion/818042635/135509472115798629/>
+如有其他疑问可在该帮助文档下留言.
