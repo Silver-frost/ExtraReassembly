@@ -1,0 +1,43 @@
+## RESOURCE
+ COLOR_R = 0x00CDCD
+ COLOR_RESOURCE0 = 0x5CACEE
+ COLOR_RESOURCE1 = 0x436EEE
+ COLOR_RESOURCE2 = 0x63B8FF
+ COLOR_RESOURCE3 = 0x3A5FCD
+ kMaxResPocketQuant += 1000
+ ## DEFAULT RESOURCES
+ kStartingP += 200
+ kStartingC += 1100
+ kPointMax += 4500
+ kUpgradePStepFrac = 0.08
+ kStationActivateC += 100
+ kTargetDestoryC += 200
+## BACKGROUND
+ kBackgroundTextureEnable = 1
+ kGameName = "EXTRA^4REASSEMBLY"
+ kStarColor = 0x90c5faff
+ kStarColorVariation = 0.6
+ kStarInvDensity = 3000000
+ kStarLayers = {{25000,4000,2000},{50000,8000,4000},{75000,16000,8000}}
+ kStarSizeRange = {12,20}
+ kStarNoiseScale = 0.01
+ kWorleyColorRadius = 2000
+ kBlurMenuRadius = 30
+## GAMEPLAY
+ kMinResPocketQuant = 2
+ kConnectDist = 8
+ kConstructorViewBounds = {20,1000}
+ kCursorSize = 15
+ kBloomBlurRadius = 2
+ kFactionUnlockThreshold = 2000
+ kPlayerBlockHealTime = 5
+ kSlowGrowRate = 1
+ kAgentSpeed = 10
+ kAssemblerSpeed = 800
+ kButtonCorners = 0.2
+## PARTICLE
+ kParticleExplosionColor0 = 0xff7030
+ kParticleExplosionColor1 = 0xe25010
+ kParticleFireColor0 = 0xff661D 
+ kParticleFireColor1 = 0xff4510
+ kParticleTris = 0
